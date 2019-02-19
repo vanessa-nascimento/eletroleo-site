@@ -1,0 +1,200 @@
+#navbar-main{
+    height:70px;
+    background:transparent !important;
+    transition: .5s;
+
+    &.affix {
+        background:#fff !important;
+        box-shadow: 0 0 20px rgba(23, 32, 43, 0.05);
+    }
+}
+
+.nav-item.nav-link{
+    //border-bottom:1px solid #f2f2f2;
+    vertical-align: middle;
+    font-size: 18px;
+    font-weight: 700;
+    color:#333;
+    font-family: 'Pathway Gothic One', sans-serif;
+    text-transform: uppercase;
+}
+
+#banner{
+    background: url('../images/Banner3.jpg');
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center left;
+    padding-top: 100px;
+    background-repeat: no-repeat;
+}
+#banner .row{   
+    min-height: 90vh;
+
+    p{
+        color: rgba(41,42,49,.8);
+        font-weight: 300;
+        font-size:20px;
+    }
+}
+
+.title-section{
+    margin-bottom:0;
+    .title-principal, .title-large{
+        background: #f39c12;
+        color:#333;
+        font-weight: 600;
+        font-size:70px;
+        line-height: 100%;
+        display: inline-block;
+    }
+
+    .title-large{
+        font-size:60px;
+    }
+
+    .title-sub{
+        font-weight:300;
+        font-size: 40px
+    }
+
+    .title-small{
+        font-weight:300;
+    }
+}
+
+
+.btn.btn-banner{
+    border-radius: 50px;
+    font-weight:600;
+    font-size: 14px;
+    padding: 10px 20px;
+
+    &.btn-warning{
+        background:#f39c12;
+        color:#333;
+    }
+
+    &.btn-outline-warning{
+        color:#f39c12;
+        border:1px solid #f39c12 !important;
+    }
+}
+
+.divider{
+    background:#f39c12;
+    width:10%;
+    margin-left:0;
+    margin-bottom: 50px;
+    border-width:1px;
+
+}
+
+.section {
+    padding: 100px 0;
+}
+
+#about{
+    p{
+        font-weight:300;
+        font-size:15px;
+        color:#666;
+    }
+}
+
+#diferenciais{
+    background:url('../images/bg-tarja.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+
+    .ico-diferenciais{
+        color: #333;
+        font-size: 45px;
+    }
+    p {
+        margin: 0;
+        font-weight: 300;
+        font-size:16px;
+        
+        b{
+            text-transform: uppercase;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    }
+}
+
+.info-contact {
+    .title {
+        margin: 0;
+    }
+    .icon-box {
+        i {
+            font-size: 45px;
+            color: $warning-color;
+        }
+    }
+}
+
+#servicos{
+    i{
+      color: $warning-color;  
+    }
+}
+
+
+#contato{background:#f8f9fa;}
+
+.page-footer {
+    background-color:#17202B;
+    padding: 20px 0;
+
+    .footer-copyright{
+        font-weight: 300;
+        text-align: center;
+       color: rgba(255,255,255,.6);
+
+       span{
+           color:#fff;
+       }
+    }
+
+    .footer-development{
+        font-weight: 300;
+        color: rgba(255,255,255,.6);
+        font-size:12px;
+        a, a:hover, a.active, a:focus{
+            color:#fff;
+        }
+    }
+}
+
+.disabled{
+    text-transform:lowercase;
+    vertical-align: middle;
+    font-size:14px;
+}
+
+label{font-size: 12px;color: #666;}
+
+.form-ajax {
+    label.error {
+        color: red;
+    }
+}
+.form-control{
+    background-color: #f8f9fa;
+    background-clip: padding-box;
+    border: 1px solid #f39c12;
+    border-radius: 0;
+}
+
+
+.btn-orcamento{
+    background:#f39c12;
+    color:#333;
+    font-weight:700;
+    border-radius:0;
+    border:none;
+    width:100%;
+    padding: 12px 0;
+}

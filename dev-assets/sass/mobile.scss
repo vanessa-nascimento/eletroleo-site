@@ -1,0 +1,43 @@
+@media only screen and (max-width: 768px) {
+    #navbar-main{
+        background: #fff !important;
+        height:auto;
+         border-bottom:1px solid #f2f2f2;
+    }
+    .navbar-nav a:before{
+        border-left: 1px solid #f39c12;
+        border-right: 1px solid #f39c12;
+    }
+    .navbar-collapse{
+        background: #fff !important;
+    }
+
+    .title-section {
+        .title-sub{
+            font-size:30px;
+        }
+        .title-principal{
+            font-size:40px;
+        }
+    }
+    #banner{
+    background: #fff;
+    }
+
+    #banner .row p{
+        font-size:14px;
+    }
+
+    #about p{
+        margin-left:10px;
+        margin-right:10px;
+    }
+
+    #diferenciais .media{
+        margin-bottom:30px;
+    }
+
+    #servicos p{
+        margin:30px auto;
+    }
+}

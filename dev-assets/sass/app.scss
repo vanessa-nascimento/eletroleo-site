@@ -1,0 +1,31 @@
+$warning: #f7e189;
+$warning-color: #f39c12;
+$btn-warning-color: $warning-color;
+$font-family: 'Monserrat', sans-serif;
+
+//misc settings
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~owl.carousel/dist/assets/owl.carousel.css';
+@import '~owl.carousel/dist/assets/owl.theme.default.css';
+@import '~animate.css/animate.css';
+@import '~sweetalert2/src/sweetalert2.scss';
+
+body{ 
+    color:#333;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Pathway Gothic One', sans-serif;
+    text-transform:uppercase;
+}
+
+
+.title-section{
+    margin-bottom:30px;
+}
+
+
+
+@import 'menu-effect.scss';
+@import 'main.scss';
+@import 'mobile.scss';
